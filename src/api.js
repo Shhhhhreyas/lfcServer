@@ -1,6 +1,9 @@
 const express = require("express");
-const fns = require("date-fns");
+const serverless = require("serverless-http");
+
 const app = express();
+const router = express.Router();
+const fns = require("date-fns");
 const port = 1110;
 const date_format = "dd/MM/yyyy";
 
@@ -45,7 +48,7 @@ const getDates = (query) => {
   return dates;
 };
 
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
   const query = req.query;
   console.log("req: ", query);
   res.set({ "Content-Type": "application/json" });
@@ -59,6 +62,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-});
+app.use(`/.netlify/functions/api`, router);
+
+module.exports = app;
+module.exports.handler = serverless(app);
