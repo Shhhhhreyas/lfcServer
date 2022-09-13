@@ -2,9 +2,11 @@ const express = require("express");
 const serverless = require("serverless-http");
 
 const app = express();
+
+const cors = require("cors");
+app.use(cors());
 const router = express.Router();
 const fns = require("date-fns");
-const port = 1110;
 const date_format = "dd/MM/yyyy";
 
 const randomIntFromInterval = (min, max) => {
