@@ -33,7 +33,7 @@ const makeShortPrice = (num, fixed = 0) => {
 };
 
 const constructFareObject = (date) => {
-  const price = randomIntFromInterval(1000, 800000000);
+  const price = randomIntFromInterval(1000, 80000);
   return {
     departureDate: date,
     price: price,
