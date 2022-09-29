@@ -32,11 +32,82 @@ const makeShortPrice = (num, fixed = 0) => {
   return e;
 };
 
-const constructFareObject = (date) => {
+const makeShortFormattedPrice = (currency = "", price) => {
+  let symbol = "";
+  switch (currency.toLowerCase()) {
+    case "aud":
+      symbol = "A$";
+      break;
+    case "cny":
+      symbol = "¥";
+      break;
+    case "eur":
+      symbol = "€";
+      break;
+    case "gbp":
+      symbol = "£";
+      break;
+    case "hkd":
+      symbol = "$";
+      break;
+    case "jpy":
+      symbol = "¥";
+      break;
+    case "myr":
+      symbol = "RM";
+      break;
+    case "nzd":
+      symbol = "$";
+      break;
+    case "php":
+      symbol = "₱";
+      break;
+    case "sgd":
+      symbol = "$";
+      break;
+    case "thb":
+      symbol = "฿";
+      break;
+    case "usd":
+      symbol = "$";
+      break;
+    case "bdt":
+      symbol = "৳";
+      break;
+    case "inr":
+      symbol = "₹";
+      break;
+    case "idr":
+      symbol = "Rp";
+      break;
+    case "krw":
+      symbol = "₩";
+      break;
+    case "mop":
+      symbol = "";
+      break;
+    case "twd":
+      symbol = "$";
+      break;
+    case "vnd":
+      symbol = "₫";
+      break;
+    case "lkr":
+      symbol = "₨";
+      break;
+    default:
+      break;
+  }
+  return symbol + makeShortPrice(price);
+};
+
+const constructFareObject = (airlineProfile, currency, date) => {
   const price = randomIntFromInterval(1000, 80000);
   return {
+    airlineProfile,
     departureDate: date,
     price: price,
+    shortFormattedPrice: makeShortFormattedPrice(currency, price),
     shortPrice: makeShortPrice(price),
   };
 };
@@ -79,11 +150,16 @@ router.get("/", (req, res) => {
   console.log("req: ", query);
   res.set({ "Content-Type": "application/json" });
   res.json({
+    airlineProfiles: query.airlineProfile.split(","),
     currency: query.currency || "PHP",
     origin: query.departStation.toLowerCase(),
     destination: query.arrivalStation.toLowerCase(),
     data: getDates(query).map((date) =>
-      constructFareObject(fns.format(date, date_format))
+      constructFareObject(
+        query.airlineProfile,
+        query.currency,
+        fns.format(date, date_format)
+      )
     ),
   });
 });

@@ -45522,10 +45522,131 @@ const randomIntFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-const constructFareObject = date => {
+const makeShortPrice = (num, fixed = 0) => {
+  if (num === null) {
+    return null;
+  } // terminate early
+
+
+  if (num === 0) {
+    return "0";
+  } // terminate early
+
+
+  fixed = !fixed || fixed < 0 ? 0 : fixed; // number of decimal places to show
+
+  var b = num.toPrecision(2).split("e"),
+      // get power
+  k = b.length === 1 ? 0 : Math.floor(Math.min(b[1].slice(1), 14) / 3),
+      // floor at decimals, ceiling at trillions
+  c = k < 1 ? num.toFixed(0 + fixed) : (num / Math.pow(10, k * 3)).toFixed(1 + fixed),
+      // divide by power
+  d = c < 0 ? c : Math.abs(c),
+      // enforce -0 is 0
+  e = d + ["", "K", "M", "B", "T"][k]; // append power
+
+  return e;
+};
+
+const makeShortFormattedPrice = (currency = "", price) => {
+  let symbol = "";
+
+  switch (currency.toLowerCase()) {
+    case "aud":
+      symbol = "A$";
+      break;
+
+    case "cny":
+      symbol = "¥";
+      break;
+
+    case "eur":
+      symbol = "€";
+      break;
+
+    case "gbp":
+      symbol = "£";
+      break;
+
+    case "hkd":
+      symbol = "$";
+      break;
+
+    case "jpy":
+      symbol = "¥";
+      break;
+
+    case "myr":
+      symbol = "RM";
+      break;
+
+    case "nzd":
+      symbol = "$";
+      break;
+
+    case "php":
+      symbol = "₱";
+      break;
+
+    case "sgd":
+      symbol = "$";
+      break;
+
+    case "thb":
+      symbol = "฿";
+      break;
+
+    case "usd":
+      symbol = "$";
+      break;
+
+    case "bdt":
+      symbol = "৳";
+      break;
+
+    case "inr":
+      symbol = "₹";
+      break;
+
+    case "idr":
+      symbol = "Rp";
+      break;
+
+    case "krw":
+      symbol = "₩";
+      break;
+
+    case "mop":
+      symbol = "";
+      break;
+
+    case "twd":
+      symbol = "$";
+      break;
+
+    case "vnd":
+      symbol = "₫";
+      break;
+
+    case "lkr":
+      symbol = "₨";
+      break;
+
+    default:
+      break;
+  }
+
+  return symbol + makeShortPrice(price);
+};
+
+const constructFareObject = (airlineProfile, currency, date) => {
+  const price = randomIntFromInterval(1000, 80000);
   return {
+    airlineProfile,
     departureDate: date,
-    price: randomIntFromInterval(2000, 4000)
+    price: price,
+    shortFormattedPrice: makeShortFormattedPrice(currency, price),
+    shortPrice: makeShortPrice(price)
   };
 };
 
@@ -45564,10 +45685,11 @@ router.get("/", (req, res) => {
     "Content-Type": "application/json"
   });
   res.json({
-    currency: "PHP",
+    airlineProfiles: query.airlineProfile.split(","),
+    currency: query.currency || "PHP",
     origin: query.departStation.toLowerCase(),
     destination: query.arrivalStation.toLowerCase(),
-    data: getDates(query).map(date => constructFareObject(fns.format(date, date_format)))
+    data: getDates(query).map(date => constructFareObject(query.airlineProfile, query.currency, fns.format(date, date_format)))
   });
 });
 app.use(`/.netlify/functions/api`, router);
