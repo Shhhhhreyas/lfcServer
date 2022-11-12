@@ -154,13 +154,19 @@ router.get("/", (req, res) => {
     currency: query.currency || "PHP",
     origin: query.departStation.toLowerCase(),
     destination: query.arrivalStation.toLowerCase(),
-    data: getDates(query).map((date) =>
-      constructFareObject(
-        query.airlineProfile,
-        query.currency,
-        fns.format(date, date_format)
-      )
-    ),
+    data: getDates(query)
+      .map((date) => {
+        if (Math.random() < 0.3) {
+          console.log("Dropping date: ", date);
+          return;
+        }
+        return constructFareObject(
+          query.airlineProfile,
+          query.currency,
+          fns.format(date, date_format)
+        );
+      })
+      .filter((date) => date),
   });
 });
 
