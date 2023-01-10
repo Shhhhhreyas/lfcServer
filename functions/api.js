@@ -45019,6 +45019,14 @@ router.get("/", (req, res) => {
     }).filter(date => date)
   });
 });
+router.get("/example", (req, res) => {
+  res.set({
+    "Content-Type": "application/json"
+  });
+  res.json({
+    two: 2
+  });
+});
 app.use(`/.netlify/functions/api`, router);
 module.exports = app;
 module.exports.handler = serverless(app);
