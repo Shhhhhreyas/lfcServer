@@ -175,6 +175,43 @@ router.get("/example", (req, res) => {
   res.json({ two: 2 });
 });
 
+router.get("/sampleData", (req, res) => {
+  res.set({ "Content-Type": "application/json" });
+  res.json([
+    {
+      id: 1,
+      title: "Product 1",
+      price: "10",
+      image:
+        "https://shop.teamsg.in/wp-content/uploads/2021/04/Blazetech-yellow-small-2-4-scaled.jpg",
+      isAdded: 0,
+    },
+    {
+      id: 2,
+      title: "Product 2",
+      price: "100",
+      image:
+        "https://rukminim1.flixcart.com/image/416/416/jf751u80/bat/g/g/u/1-1-2-short-handle-virat-kohli-grand-edition-tennis-cricket-bat-original-imaf3j2zhmdnays3.jpeg?q=70",
+      isAdded: 0,
+    },
+    {
+      id: 3,
+      title: "Product 3",
+      price: "50",
+      image:
+        "https://4.imimg.com/data4/RU/VC/MY-11853389/men-s-jackets-500x500.jpg",
+      isAdded: 0,
+    },
+    {
+      id: 4,
+      title: "Product 4",
+      price: "250",
+      image: "https://m.media-amazon.com/images/I/418QpEn9JKL._SX425_.jpg",
+      isAdded: 0,
+    },
+  ]);
+});
+
 app.use(`/.netlify/functions/api`, router);
 
 module.exports = app;
