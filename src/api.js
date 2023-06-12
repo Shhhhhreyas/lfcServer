@@ -149,6 +149,12 @@ router.get("/", (req, res) => {
   const query = req.query;
   console.log("req: ", query);
   res.set({ "Content-Type": "application/json" });
+  if (query.delay) {
+    setTimeout(() => {
+      res.sendStatus(500);
+    }, Number(query.delay));
+    return;
+  }
   res.json({
     airlineProfiles: query.airlineProfile.split(","),
     currency: query.currency || "PHP",
