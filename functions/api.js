@@ -45007,7 +45007,7 @@ router.get("/", (req, res) => {
 
   if (query.delay) {
     setTimeout(() => {
-      res.sendStatus(500);
+      res.sendStatus(Number(query.statusCode) || 500);
     }, Number(query.delay));
     return;
   }

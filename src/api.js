@@ -151,7 +151,7 @@ router.get("/", (req, res) => {
   res.set({ "Content-Type": "application/json" });
   if (query.delay) {
     setTimeout(() => {
-      res.sendStatus(500);
+      res.sendStatus(Number(query.statusCode) || 500);
     }, Number(query.delay));
     return;
   }
