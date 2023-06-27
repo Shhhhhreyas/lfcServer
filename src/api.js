@@ -218,6 +218,23 @@ router.get("/sampleData", (req, res) => {
   ]);
 });
 
+router.post("/fp/xsell/aggregator/v1/page-results", (req, res) => {
+  res.set({ "Content-Type": "application/json" });
+  if (req.query?.journeyType?.toLocaleLowerCase() === "r") {
+    res.json(require("./v1ReturnJourney.json"));
+  } else {
+    res.json(require("./v1OneWay.json"));
+  }
+});
+router.post("/fp/xsell/aggregator/v2/page-results", (req, res) => {
+  res.set({ "Content-Type": "application/json" });
+  if (req.query?.journeyType?.toLocaleLowerCase() === "r") {
+    res.json(require("./v2ReturnJourney.json"));
+  } else {
+    res.json(require("./v2OneWay.json"));
+  }
+});
+
 app.use(`/.netlify/functions/api`, router);
 
 module.exports = app;

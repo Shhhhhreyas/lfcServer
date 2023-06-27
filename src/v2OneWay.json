@@ -1,0 +1,1294 @@
+{
+    "locale": {
+      "bookingConfirmationSuccess": {
+        "info": "We’ll send your itinerary to your email {email} within 3 hours",
+        "subTitle": "Dear {name}, your flight booking is confirmed.",
+        "title": "Booking Confirmed",
+        "contentMsg1": "We’ll send your itinerary to your email {email} and mobile phone {dialingNumber} - {mobileNumber} within 1 hour.",
+        "contentMsg3": "",
+        "contentMsg2": "Your reference number is {orderId}.",
+        "alert": "You’ll need to check-in your flights at the respective airline websites using your name and booking number/eTicket number",
+        "notificationMsg": "Paid using {paymentMethod}",
+        "paymentLabelViaDebit": "Paid using credit card"
+      },
+      "bookingConfirmationPending": {
+        "info": "We’re processing your booking and it can take up to 24 hour to confirm. We’ll send your itinerary to {email} once it’s confirmed.",
+        "subTitle": "Dear {name}, we’re processing your booking. This can take a few minutes but no longer than 24 hours.",
+        "title": "Booking Processing",
+        "contentMsg1": "We’ll send your itinerary to your email {email} once we’ve confirmed your booking.",
+        "contentMsg3": "",
+        "contentMsg2": "Your reference number is {orderId}.",
+        "alert": ""
+      },
+      "bookingConfirmationPaymentPending": {
+        "info": "",
+        "alert": "We are waiting for payment for this booking. If you have just made a payment, there could be a delay in processing your payment. There is no need to pay again."
+      },
+      "bookingConfirmationFailed": {
+        "info": "",
+        "subTitle": "We’re sorry, your booking has failed.",
+        "title": "Booking Failed",
+        "contentMsg1": "",
+        "contentMsg3": "",
+        "contentMsg2": "",
+        "alert": "We’re sorry. We can’t confirm your booking. We’ll refund the full amount that was charged to your original payment method."
+      },
+      "": {
+        "": ""
+      },
+      "flightInfo": {
+        "depart": "Depart",
+        "chatWithUs": "Chat with us",
+        "flightRescheduleActionNeeded": "There are some changes in your flight schedule. Please {ChatWithUs} to reschedule your flight.",
+        "updateBagDetails": "You can see additional baggage you’ve paid for \nin the payment details",
+        "myBookings": "My bookings",
+        "title": "Flight summary",
+        "cancelCtaText": "Cancel flight",
+        "return": "Return:",
+        "bookinNumber": "Booking number",
+        "editGuestDetailsCtaText": "Edit guest details",
+        "checkinMsg": "You can check in your flights at the respective airline websites using guest name, booking number or eTicket number.",
+        "baggageTitle": "Add baggage",
+        "flightScheduleChanged": "We’ve updated your booking with your new flight.",
+        "baggageMsg": "We’re still working on this. For now, please check with your respective airlines to pre-book your baggage allowance.",
+        "updatePaxDetails": "We’ve updated your guest/contact details as\nrequested",
+        "seeBooking": "",
+        "manageBookingCtaText": "Manage booking",
+        "checkinTitle": "Check in",
+        "departure": "Departure:",
+        "secondaryTitle": "Flight details",
+        "technicalStop": "This is a technical stop. You don't need to change aircraft.",
+        "downloadItineraryCtaText": "Download itinerary",
+        "updateFlightDetails": "We’re updating your flight details. Please lookout for an email from us for your updated itinerary as this page may not reflect the latest changes immediately. "
+      },
+      "fareSummary": {
+        "and": "and",
+        "promo": "voucher/promo code",
+        "paymentDates": "Payment dates",
+        "zeroPayment": "Yay! Nothing to pay for now.",
+        "directDebit": "direct debit",
+        "fareDiscount": "Fare discount",
+        "serviceCharge": "Service charges",
+        "loyalty": "airasia points",
+        "taxes": "Taxes, fees & surcharges",
+        "creditCard": "credit card",
+        "downloadReceiptCtaText": "Download receipt",
+        "adhocPaymentTitle": "Payment details",
+        "baseFare": "Base fare",
+        "debitCard": "online banking",
+        "processingFee": "Processing fee",
+        "paidUsing": "Paid using",
+        "payLater": "Book now, pay later",
+        "totalAmount": "Total amount",
+        "amountToPay": "Amount to pay",
+        "addons": "Add-ons",
+        "amountPaid": "Amount paid"
+      },
+      "guestDetails": {
+        "infant": "Infant",
+        "title": "Guest details ({adultCount} adults, {childCount} child {infantCount} infant)",
+        "adult": "Adult",
+        "child": "Child",
+        "subTitle1": "Guest name",
+        "subTitle2": "Booking no."
+      },
+      "ComplimentaryBaggage": {
+        "Description": "The price you’re paying includes the following",
+        "cabinBag": "Carry-on baggage",
+        "Title": "Baggage allowance",
+        "holdBag": "Checked baggage",
+        "personalItem": "Small bag",
+        "noCheckedBaggage": "This is a no checked baggage flight"
+      },
+      "addonSummary": {
+        "holdBag_20kg": "20 kg Checked baggage",
+        "handBag_7kg": "7 kg Carry-on baggage",
+        "handCarry": "Carry-on baggage",
+        "to": "to",
+        "holdBag_8kg": "8 kg Checked baggage",
+        "holdBag_15kg": "15 kg Checked baggage",
+        "holdBag_25kg": "25 kg Checked baggage",
+        "holdBag_23kg": "23 kg Checked baggage",
+        "addMeal": "Pre-book meal",
+        "holdBag_7kg": "7 kg Checked baggage",
+        "handBag_20kg": "20 kg Carry-on baggage",
+        "addInsurance": "Add insurance",
+        "showAll": "Show all",
+        "baggagePieces": "{0} pieces",
+        "included": "included",
+        "addSeat": "Pick a seat",
+        "handBag_15kg": "15 kg Carry-on baggage",
+        "addBaggage": "Add baggage",
+        "baggagePiece": "{0} piece",
+        "holdBag_10kg": "10 kg Checked baggage",
+        "checkedBaggage": "Checked baggage",
+        "handBag_6kg": "6 kg Carry-on baggage",
+        "handBag_10kg": "10 kg Carry-on baggage",
+        "handBag_23kg": "23 kg Carry-on baggage",
+        "handBag_8kg": "8 kg Carry-on baggage",
+        "discountLabel": "Prices are lower here than at the airport"
+      },
+      "paymentMethod": {
+        "onlinebanking": "Online Banking",
+        "creditcard": "Credit Card",
+        "eGiftvoucher": "EGift Voucher",
+        "debitcard": "Debit Card",
+        "creditaccount": "Credit Account",
+        "airasiapoints": "Airasia Points",
+        "unionpay": "UnionPay "
+      },
+      "promotionalBanner": {
+        "applyEVisa": "Apply eVisa"
+      },
+      "unifiedBookingConfirmation": {
+        "referenceNumber": "Reference number",
+        "refundStatus": "Refund status",
+        "bookingProcessing": "Booking processing",
+        "searchNewFlight": "Search new flight",
+        "payNow": "Pay now",
+        "applicationSuccessful": "Application successful",
+        "bookingNumber": "Booking number",
+        "paymentPending": "Pending payment",
+        "manageBooking": "Manage booking",
+        "downloadItienairy": "Download itinerary",
+        "viewRefundCase": "View refund case",
+        "bookingConfirmed": "Booking confirmed",
+        "refundMessage": "We are now proceessing the refund back to your original payment method.This may take up to 1 month",
+        "bookingFailed": "Booking failed"
+      },
+      "manageBooking": {
+        "showOptions": "Show options",
+        "specialRequest": "Special request",
+        "editContact": "Edit contact",
+        "splitBooking": "Split booking",
+        "changeFlight": "Change flight",
+        "earnPointsForGuests": "Earn points for guests",
+        "manageBooking": "Manage booking",
+        "addInfant": "Add infant",
+        "cancelBooking": "Cancel booking"
+      },
+      "otherActions": {
+        "downloadReceipt": "Download receipt",
+        "downloadItinerary": "Download itinerary",
+        "otherActions": "Other actions"
+      }
+    },
+    "content": {
+      "gender": [
+        {
+          "male": "Male",
+          "female": "Female"
+        }
+      ],
+      "salutation": [
+        {
+          "label": "Mr.",
+          "value": "Mr."
+        },
+        {
+          "label": "Ms.",
+          "value": "Ms."
+        }
+      ],
+      "images": [
+        {
+          "carrierLogo64": "https://static.airasia.com/flights/images/airlines/logos/64/{carrier_code}.png"
+        }
+      ],
+      "links": [
+        {
+          "selfTransfer": "https://www.kiwi.com"
+        }
+      ],
+      "currency": [
+        {
+          "AUD": "Australian Dollar",
+          "CNY": "Chinese Renminbi Yuan",
+          "EUR": "Euro",
+          "GBP": "British Pound",
+          "HKD": "Hong Kong Dollar",
+          "JPY": "Japanese Yen",
+          "MYR": "Malaysia Ringgit",
+          "NZD": "New Zealand Dollar",
+          "PHP": "Philippines Peso",
+          "SGD": "Singapore Dollar",
+          "THB": "Thailand Baht",
+          "USD": "US Dollar",
+          "BDT": "Bangladesh Taka",
+          "BND": "Brunei Dollar",
+          "INR": "Indian Rupee",
+          "IDR": "Indonesia Rupiah",
+          "KRW": "South Korean Won",
+          "MOP": "Macau Pataca",
+          "TWD": "Taiwanese NT Dollar",
+          "VND": "Vietnamese Dong"
+        }
+      ]
+    },
+    "featureFlag": {
+      "configuration": {
+        "ENABLE_EVISA_BANNER": "FALSE",
+        "ENABLE_NEW_OMS_ENDPOINT": "FALSE",
+        "ENABLE_ADHOC_PAYMENT": "TRUE",
+        "ENABLE_MYORDERS_TO_NEW_CONFIRMATION_PAGE": "TRUE",
+        "ENABLE_NPS": "TRUE",
+        "ENABLE_AIRASIA_POINTS_FARE_BREAKUP": "TRUE",
+        "ENABLE_UNIFIED_CONFIRMATION_ADD_ON_PAGE": "FALSE",
+        "ENABLE_UNIFIED_CONFIRMATION_PAGE": "TRUE",
+        "ADD_PERSONAL_BAG": "FALSE",
+        "ENABLE_NEW_ITINERARY_DOWNLOAD_URL": "TRUE",
+        "ENABLE_NEW_ITINERARY_DOWNLOAD_URL_FOR_CHT": "TRUE",
+        "ENABLE_COMPLIMENTARY_BAGGAGE": "TRUE",
+        "ENABLE_QUANTUM_METRICS": "TRUE",
+        "ENABLE_ADDON_SUMMARY": "TRUE"
+      }
+    },
+    "headerDetails": {
+      "components": [
+        {
+          "data": [
+            {
+              "type": "logo",
+              "id": "aalogo",
+              "iconUrl": "https://static.airasia.com/design/logos/airasiacom_logo.svg",
+              "iconName": "",
+              "label": "",
+              "redirectUrl": "https://stgairasia.com/en/gb",
+              "direction": "left",
+              "newTab": "TRUE",
+              "showInMobilePane": "FALSE"
+            },
+            {
+              "type": "navigation",
+              "id": "explore",
+              "iconUrl": "",
+              "iconName": "",
+              "label": "Explore",
+              "redirectUrl": "https://www.airasia.com/explore",
+              "direction": "right",
+              "newTab": "TRUE",
+              "showInMobilePane": "FALSE"
+            },
+            {
+              "type": "navigation",
+              "id": "mybookings",
+              "iconUrl": "",
+              "iconName": "CollectionsBookmarkIcon",
+              "label": "My Bookings",
+              "redirectUrl": "https://www.stgairasia.com/member/search?culture=en-gb",
+              "direction": "right",
+              "newTab": "TRUE",
+              "showInMobilePane": "TRUE"
+            },
+            {
+              "type": "navigation",
+              "id": "checkin",
+              "iconUrl": "",
+              "iconName": "PlaylistAddCheckIcon",
+              "label": "Check-in",
+              "redirectUrl": "https://stgcheckin.airasia.com/en/gb",
+              "direction": "right",
+              "newTab": "TRUE",
+              "showInMobilePane": "TRUE"
+            },
+            {
+              "type": "navigation",
+              "id": "flightstatus",
+              "iconUrl": "",
+              "iconName": "FlightTakeoffIcon",
+              "label": "Flight Status",
+              "redirectUrl": "https://flightstatus.stgairasia.com/flightstatus/en/gb",
+              "direction": "right",
+              "newTab": "TRUE",
+              "showInMobilePane": "TRUE"
+            },
+            {
+              "type": "navigation",
+              "id": "support",
+              "iconUrl": "",
+              "iconName": "ForumIcon",
+              "label": "Support",
+              "redirectUrl": "https://support.airasia.com/s/?language=en_GB",
+              "direction": "right",
+              "newTab": "TRUE",
+              "showInMobilePane": "TRUE"
+            },
+            {
+              "type": "locale-currency",
+              "id": "localecurrency",
+              "iconUrl": "",
+              "iconName": "LanguageIcon",
+              "label": "",
+              "redirectUrl": "",
+              "direction": "right",
+              "newTab": "",
+              "showInMobilePane": "TRUE"
+            },
+            {
+              "type": "login",
+              "id": "login",
+              "iconUrl": "",
+              "iconName": "AccountCircle",
+              "label": "Login/Signup",
+              "redirectUrl": "",
+              "direction": "right",
+              "newTab": "",
+              "showInMobilePane": "FALSE"
+            }
+          ]
+        }
+      ],
+      "defaultLocale": [
+        {
+          "data": [
+            {
+              "shortform": "En",
+              "longform": "English",
+              "default": "en-gb",
+              "icon": "LanguageIcon"
+            }
+          ]
+        }
+      ],
+      "defaultCurrency": [
+        {
+          "data": [
+            {
+              "shortform": "USD",
+              "shortSymbol": "$",
+              "longform": "US Dollar",
+              "icon": "MonetizationOnIcon"
+            }
+          ]
+        }
+      ],
+      "recommendedCurrencyList": [
+        {
+          "data": ""
+        }
+      ],
+      "currencyList": [
+        {
+          "data": [
+            {
+              "shortform": "AUD",
+              "shortSymbol": "",
+              "longform": "Australian Dollar"
+            },
+            {
+              "shortform": "CNY",
+              "shortSymbol": "¥",
+              "longform": "Chinese Renminbi Yuan"
+            },
+            {
+              "shortform": "EUR",
+              "shortSymbol": "€",
+              "longform": "Euro"
+            },
+            {
+              "shortform": "GBP",
+              "shortSymbol": "£",
+              "longform": "British Pound"
+            },
+            {
+              "shortform": "HKD",
+              "shortSymbol": "HK$",
+              "longform": "Hong Kong Dollar"
+            },
+            {
+              "shortform": "JPY",
+              "shortSymbol": "¥",
+              "longform": "Japanese Yen"
+            },
+            {
+              "shortform": "MYR",
+              "shortSymbol": "RM",
+              "longform": "Malaysia Ringgit"
+            },
+            {
+              "shortform": "NZD",
+              "shortSymbol": "₹",
+              "longform": "New Zealand Dollar"
+            },
+            {
+              "shortform": "PHP",
+              "shortSymbol": "₱",
+              "longform": "Philippines Peso"
+            },
+            {
+              "shortform": "SGD",
+              "shortSymbol": "S$",
+              "longform": "Singapore Dollar"
+            },
+            {
+              "shortform": "THB",
+              "shortSymbol": "฿",
+              "longform": "Thailand Baht"
+            },
+            {
+              "shortform": "USD",
+              "shortSymbol": "$",
+              "longform": "US Dollar"
+            },
+            {
+              "shortform": "BDT",
+              "shortSymbol": "৳",
+              "longform": "Bangladesh Taka"
+            },
+            {
+              "shortform": "BND",
+              "shortSymbol": "",
+              "longform": "Brunei Dollar"
+            },
+            {
+              "shortform": "INR",
+              "shortSymbol": "₹",
+              "longform": "Indian Rupee"
+            },
+            {
+              "shortform": "IDR",
+              "shortSymbol": "Rp",
+              "longform": "Indonesia Rupiah"
+            },
+            {
+              "shortform": "KRW",
+              "shortSymbol": "₩",
+              "longform": "South Korean Won"
+            },
+            {
+              "shortform": "MOP",
+              "shortSymbol": "",
+              "longform": "Macau Pataca"
+            },
+            {
+              "shortform": "TWD",
+              "shortSymbol": "NT$",
+              "longform": "Taiwanese NT Dollar"
+            },
+            {
+              "shortform": "VND",
+              "shortSymbol": "₫",
+              "longform": "Vietnamese Dong"
+            }
+          ]
+        }
+      ],
+      "recommendedLocaleList": [
+        {
+          "data": ""
+        }
+      ],
+      "localeList": [
+        {
+          "data": [
+            {
+              "shortform": "En",
+              "longform": "English",
+              "default": "en-gb"
+            },
+            {
+              "shortform": "TH",
+              "longform": "ภาษาไทย",
+              "default": "th-th"
+            },
+            {
+              "shortform": "ID",
+              "longform": "Bahasa Indonesia",
+              "default": "id-id"
+            },
+            {
+              "shortform": "ZH",
+              "longform": "简体中文",
+              "default": "zh-cn"
+            },
+            {
+              "shortform": "ZH",
+              "longform": "繁體中文",
+              "default": "zh-tw"
+            },
+            {
+              "shortform": "ZH",
+              "longform": "繁體中文 (香港)",
+              "default": "zh-hk"
+            },
+            {
+              "shortform": "JA",
+              "longform": "日本語",
+              "default": "ja-jp"
+            },
+            {
+              "shortform": "KO",
+              "longform": "한국어",
+              "default": "ko-kr"
+            },
+            {
+              "shortform": "MS",
+              "longform": "Bahasa Malaysia",
+              "default": "ms-my"
+            },
+            {
+              "shortform": "VI",
+              "longform": "Tiếng Việt",
+              "default": "vi-vn"
+            },
+            {
+              "shortform": "TR",
+              "longform": "Turkish",
+              "default": "tr-tr"
+            }
+          ]
+        }
+      ],
+      "loginTooltip": [
+        {
+          "data": [
+            {
+              "title": "Log in now for airasia member discounts",
+              "description": "Log into get airasia member discounts and also redeem your unlimited pass",
+              "signupButtonText": "",
+              "loginButtonText": "Log in/Sign up"
+            }
+          ]
+        }
+      ],
+      "loginMenu": [
+        {
+          "memberData": [
+            {
+              "id": "bigMemberId",
+              "icon": "",
+              "label": "airasia member ID",
+              "redirectUrl": "",
+              "newTab": "FALSE"
+            },
+            {
+              "id": "bigMemberPoints",
+              "icon": "",
+              "label": "airasia points",
+              "redirectUrl": "",
+              "newTab": "FALSE"
+            },
+            {
+              "id": "status",
+              "icon": "",
+              "label": "Status",
+              "redirectUrl": "",
+              "newTab": "FALSE"
+            }
+          ]
+        },
+        {
+          "navigations": [
+            {
+              "id": "myaccount",
+              "icon": "account_box",
+              "label": "My account",
+              "redirectUrl": "https://www.airasia.com/member/myaccount?culture=en-GB",
+              "newTab": "TRUE"
+            },
+            {
+              "id": "mybookings",
+              "icon": "featured_play_list",
+              "label": "My bookings",
+              "redirectUrl": "https://www.airasia.com/member/mybookings?culture=en-GB",
+              "newTab": "TRUE"
+            },
+            {
+              "id": "mysubscription",
+              "icon": "library_books",
+              "label": "My subscription",
+              "redirectUrl": "https://www.airasia.com/member/mysubscription?culture=en-GB",
+              "newTab": "TRUE"
+            },
+            {
+              "id": "mybigpaycheckout",
+              "icon": "credit_card",
+              "label": "My BigPay Checkout",
+              "redirectUrl": "https://www.airasia.com/member/myaccount#bigpaycheckout",
+              "newTab": "TRUE"
+            },
+            {
+              "id": "mycases",
+              "icon": "assignment_turned_in",
+              "label": "My cases",
+              "redirectUrl": "https://www.airasia.com/member/mycases?culture=en-GB",
+              "newTab": "TRUE"
+            },
+            {
+              "id": "mybigpoints",
+              "icon": "money",
+              "label": "My airasia points",
+              "redirectUrl": "https://www.airasiabig.com/my/en/profile",
+              "newTab": "TRUE"
+            },
+            {
+              "id": "mycreditaccount",
+              "icon": "attach_money",
+              "label": "My credit account",
+              "redirectUrl": "https://booking2.airasia.com/CreditStatusLogin.aspx?culture=en-GB",
+              "newTab": "TRUE"
+            }
+          ]
+        },
+        {
+          "logoutButton": [
+            {
+              "id": "logout",
+              "icon": "",
+              "label": "Log out",
+              "redirectionUrl": "",
+              "newTab": "FALSE"
+            }
+          ]
+        }
+      ],
+      "translations": [
+        {
+          "data": [
+            {
+              "settings": "Settings",
+              "popularCurrency": "Suggested currencies",
+              "popularLocale": "Popular languages",
+              "currency": "Choose a currency",
+              "locale": "Choose a language",
+              "otherCurrency": "Other supported currency",
+              "otherLocale": "Other supported languages",
+              "mobileLocaleLabel": "Language",
+              "mobileCurrencyLabel": "Currency"
+            }
+          ]
+        }
+      ]
+    },
+    "footerDetails": {
+      "components": [
+        {
+          "data": [
+            {
+              "type": "image",
+              "id": "mavcomlogo",
+              "imageUrl": "https://a.staticaa.com/images/logo/mavcomlogo-en.png",
+              "redirectUrl": "http://www.mavcom.my/en/consumer/make-a-complaint/",
+              "newTab": "TRUE",
+              "altText": "Mavcom Logo",
+              "direction": "left"
+            },
+            {
+              "type": "footer-notes",
+              "id": "",
+              "imageUrl": "",
+              "redirectUrl": "",
+              "newTab": "",
+              "altText": "",
+              "direction": ""
+            },
+            {
+              "type": "image",
+              "id": "awardimage",
+              "imageUrl": "",
+              "redirectUrl": "",
+              "newTab": "TRUE",
+              "altText": "Airasia - 10 years success",
+              "direction": "right"
+            }
+          ]
+        }
+      ],
+      "footerNotes": [
+        {
+          "data": [
+            {
+              "content": "©2020 AirAsia Group Berhad. Your usage of the AirAsia website indicates that you agree to be bound by our {0}, {1} and {2}.Fares include airport taxes and all applicable fees and charges imposed by the relevant regulatory bodies.This website is owned and operated by AirAsia Berhad (284669-W) (“AirAsia”). {3} {4} {5}",
+              "id": "footerTopLinks"
+            },
+            {
+              "content": "{0} | {1} | {2} | {3} | {4} | {5} | {6} | {7}",
+              "id": "footerBottomLinks"
+            }
+          ]
+        }
+      ],
+      "footerTopLinks": [
+        {
+          "data": [
+            {
+              "label": "Terms and Conditions",
+              "url": "https://www.airasia.com/my/en/about-us/terms-and-conditions.page",
+              "cnUrl": "http://cms.airasia.com/my/en/about-us/terms-and-conditions.page",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "Terms of Use",
+              "url": "https://www.airasia.com/my/en/about-us/terms-of-use.page",
+              "cnUrl": "https://www.airasia.com/aa/about-us/en/gb/terms-of-use-cn.html",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "Privacy Statement",
+              "url": "https://www.airasia.com/my/en/about-us/privacy-policy.page",
+              "cnUrl": "http://cms.airasia.com/my/en/about-us/privacy-policy.page",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "亚航商务服务(广州)有限公司",
+              "url": "https://www.airasia.com/zh/cn",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "粤ICP备17160544号-2",
+              "url": "http://www.beian.miit.gov.cn/",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "证照信息",
+              "url": "https://a.staticaa.com/pdf/business-license/wofe-business-license.pdf",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            }
+          ]
+        }
+      ],
+      "footerBottomLinks": [
+        {
+          "data": [
+            {
+              "label": "AirAsia Berhad (Malaysia)",
+              "url": "http://www.airasia.com/my/en/about-us/ir-organizational-structure.page",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "Thai AirAsia Co. Ltd",
+              "url": "http://www.aavplc.com/index.html?menu=aav_organisation_chart&lang=en",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "PT Indonesia AirAsia",
+              "url": "http://www.airasia.com/my/en/about-us/airasia-indonesia-organizational-structure.page",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "Philippines AirAsia Inc.",
+              "url": "http://www.airasia.com/my/en/about-us/airasia-philippine-organizational-structure.page",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "AirAsia X Berhad (Malaysia)",
+              "url": "http://www.airasiax.com/",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "Thai AirAsia X Co.,Ltd ",
+              "url": "http://www.airasia.com/my/en/about-us/thai-airasia-x-organizational-structure.page",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "AirAsia Japan Co., Ltd.",
+              "url": "http://www.airasia.com/jp/ja/about-us/airasia-japan-company-profile.page",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            },
+            {
+              "label": "AirAsia (India) Limited",
+              "url": "http://www.airasia.com/my/en/about-us/airasia-india-organizational-structure.page",
+              "cnUrl": "",
+              "newTab": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    "xcsTraceId": "3623bd580f1e92c488a07d165c849993",
+    "isV2enabled": true,
+    "airlineProfile": "o",
+    "key": "ESBbLI3kuU5BrBlrGEBzDdBmwVtNJp83mx0Lium7Ll7pG9-cyQaWuPPS0wpGNVBt7FCWWmV4LWvh9ED8M20qm_B4ZVjP8Fr3PcjQk7hKXtI48t6u9vamWYn9v2FFgUSg4BV70HD0mKAKokssRXwIHzScUkFnUkYFODk24K2z8RyP_do_X5lgFhxjgn7vnD2CsXxL5JvqHbhgla3ofz3tq2zbfw5ek6pAzulmtlG8mq8jZGc8SSHQtp4HxZi3_3etx2HXyJWCRVlk7s7gehj8Oo-L-XcwcfMnLUCX5rClH5StozU1rG_QRWPmQY2S2JnrZ0EwEqR8OsQ9ijkcK21goA==?paymentStatus=success",
+    "customerInfo": {
+      "firstName": "Test",
+      "middleName": "",
+      "lastName": "Test",
+      "title": "Mr",
+      "emailId": "aamobile2812@gmail.com",
+      "contactNumber": "7716885597",
+      "countryCode": "GB",
+      "dialingCode": "+44"
+    },
+    "orderState": {
+      "orderStatus": "fulfilment_in_progress",
+      "bookingStatus": "pending",
+      "orderNumber": "10011935085",
+      "isRescheduleActionNeeded": false,
+      "encryptedOrderNumber": "MTc4NTYyNzZEMThCOEMyQzkxMDU3QUY5NDY3RDE5NEM4MjcxRjA1Mzc2MjdBNjk3MDI3N0MxRjM4OEQ3MkE0QjJEMkI4REYyNkRDRkVFOTg0ODNGN0E5QzcwMDdDRjY5c1l6S0o4MFFhQzdYb0RSMVBVT2NXdz09"
+    },
+    "stationDetails": {
+      "SIN": {
+        "AirportName": "Changi Airport",
+        "StationName": "Singapore",
+        "CountryCode": "SG",
+        "CountryName": "Singapore",
+        "CityName": "Singapore"
+      },
+      "KUL": {
+        "AirportName": "Kuala Lumpur International Airport",
+        "StationName": "Kuala Lumpur",
+        "CountryCode": "MY",
+        "CountryName": "Malaysia",
+        "CityName": "Kuala Lumpur"
+      },
+      "MNL": {
+        "AirportName": "Ninoy Aquino International Airport",
+        "StationName": "Manila",
+        "CountryCode": "PH",
+        "CountryName": "Philippines",
+        "CityName": "Manila"
+      }
+    },
+    "carrierDetails": {
+      "KL": "KLM Royal Dutch Airlines",
+      "TR": "Scoot"
+    },
+    "fulfilmentDetails": {
+      "journeyDetails": {
+        "priceChanged": false,
+        "cartDetails": {
+          "depart": [
+            {
+              "charge": {
+                "adults": 84.18
+              },
+              "chargeType": "baseFare",
+              "totalCharge": 84.18
+            },
+            {
+              "charge": {
+                "adults": 11.82
+              },
+              "chargeType": "serviceCharge",
+              "totalCharge": 11.82
+            }
+          ],
+          "currency": "EUR",
+          "totalFee": 84.18,
+          "totalTax": 11.82,
+          "totalAmount": 96,
+          "departCartTotal": 96
+        },
+        "flightDetails": {
+          "depart": {
+            "segments": [
+              {
+                "legs": [
+                  {
+                    "duration": 12900,
+                    "designator": {
+                      "arrivalTime": "2023-07-22T23:40:00.000Z",
+                      "departureTime": "2023-07-22T20:05:00.000Z",
+                      "arrivalStation": "KUL",
+                      "arrivalTimeUtc": "2023-07-22T15:40:00.000Z",
+                      "departureStation": "MNL",
+                      "departureTimeUtc": "2023-07-22T12:05:00.000Z"
+                    }
+                  }
+                ],
+                "airline": "KL",
+                "duration": 12900,
+                "fareType": "N",
+                "fareBasis": "NS54BALM",
+                "fareClass": "M",
+                "cabinClass": "ECONOMY",
+                "designator": {
+                  "arrivalTime": "2023-07-22T23:40:00.000Z",
+                  "departureTime": "2023-07-22T20:05:00.000Z",
+                  "arrivalStation": "KUL",
+                  "arrivalTimeUtc": "2023-07-22T15:40:00.000Z",
+                  "departureStation": "MNL",
+                  "departureTimeUtc": "2023-07-22T12:05:00.000Z"
+                },
+                "carrierCode": "KL",
+                "vehicleType": "aircraft",
+                "flightNumber": 806,
+                "viConnection": false,
+                "isSelfTransfer": false,
+                "fareClassCategory": "M",
+                "bagsRecheckRequired": false,
+                "marketingAirlineName": "KLM Royal Dutch Airlines",
+                "marketingCarrierCode": "KL",
+                "operatingAirlineName": "KLM Royal Dutch Airlines",
+                "operatingCarrierCode": "KL",
+                "baggageTransferOption": "AIRLINE_TRANSFER",
+                "marketingFlightNumber": 806,
+                "operatingFlightNumber": 806,
+                "connectionProtectedByAirline": true
+              },
+              {
+                "legs": [
+                  {
+                    "duration": 3600,
+                    "designator": {
+                      "arrivalTime": "2023-07-23T12:55:00.000Z",
+                      "departureTime": "2023-07-23T11:55:00.000Z",
+                      "arrivalStation": "SIN",
+                      "arrivalTimeUtc": "2023-07-23T04:55:00.000Z",
+                      "departureStation": "KUL",
+                      "departureTimeUtc": "2023-07-23T03:55:00.000Z"
+                    }
+                  }
+                ],
+                "airline": "TR",
+                "duration": 3600,
+                "fareType": "X",
+                "fareBasis": "X1CCOA",
+                "fareClass": "M",
+                "cabinClass": "ECONOMY",
+                "designator": {
+                  "arrivalTime": "2023-07-23T12:55:00.000Z",
+                  "departureTime": "2023-07-23T11:55:00.000Z",
+                  "arrivalStation": "SIN",
+                  "arrivalTimeUtc": "2023-07-23T04:55:00.000Z",
+                  "departureStation": "KUL",
+                  "departureTimeUtc": "2023-07-23T03:55:00.000Z"
+                },
+                "carrierCode": "TR",
+                "layoverTime": 44100,
+                "vehicleType": "aircraft",
+                "flightNumber": 453,
+                "viConnection": true,
+                "isSelfTransfer": true,
+                "fareClassCategory": "M",
+                "bagsRecheckRequired": true,
+                "marketingAirlineName": "Scoot",
+                "marketingCarrierCode": "TR",
+                "operatingAirlineName": "Scoot",
+                "operatingCarrierCode": "TR",
+                "baggageTransferOption": "SELF_TRANSFER",
+                "marketingFlightNumber": 453,
+                "operatingFlightNumber": 453,
+                "connectionProtectedByAirline": false
+              }
+            ],
+            "designator": {
+              "arrivalTime": "2023-07-23T12:55:00.000Z",
+              "departureTime": "2023-07-22T20:05:00.000Z",
+              "arrivalStation": "SIN",
+              "arrivalTimeUtc": "2023-07-23T04:55:00.000Z",
+              "departureStation": "MNL",
+              "departureTimeUtc": "2023-07-22T12:05:00.000Z"
+            },
+            "totalDaysCount": 1
+          },
+          "duration": {
+            "total": 16500,
+            "return": 0,
+            "departure": 16500
+          },
+          "designator": {
+            "arrivalTime": "2023-07-23T12:55:00.000Z",
+            "departureTime": "2023-07-22T20:05:00.000Z",
+            "arrivalStation": "SIN",
+            "arrivalTimeUtc": "2023-07-23T04:55:00.000Z",
+            "departureStation": "MNL",
+            "departureTimeUtc": "2023-07-22T12:05:00.000Z",
+            "arrivalCountryCode": "SG",
+            "departureCountryCode": "PH"
+          }
+        },
+        "segmentAddons": [
+          {
+            "referenceId": "segment_1",
+            "departureStation": "MNL",
+            "arrivalStation": "KUL",
+            "passengers": [
+              {
+                "firstName": "Test",
+                "lastName": "Test",
+                "referenceId": "pax_adt_0",
+                "title": "Mr",
+                "gender": "Male",
+                "addons": {
+                  "seatItems": null,
+                  "baggageItems": [
+                    {
+                      "title": "20 kg Baggage",
+                      "translationKey": "holdBag_20kg",
+                      "otherDetails": {
+                        "baggageType": "hold_bag",
+                        "baggageWeight": "20"
+                      }
+                    },
+                    {
+                      "title": "7 kg Baggage",
+                      "translationKey": "handBag_7kg",
+                      "otherDetails": {
+                        "baggageType": "cabin_bag",
+                        "baggageWeight": "7"
+                      }
+                    }
+                  ],
+                  "mealItems": null,
+                  "insuranceItems": [
+                    {
+                      "title": "Travel Insurance",
+                      "translationKey": "INSC",
+                      "otherDetails": null
+                    }
+                  ],
+                  "otherItems": null
+                }
+              }
+            ],
+            "type": "depart_segment"
+          },
+          {
+            "referenceId": "segment_2",
+            "departureStation": "KUL",
+            "arrivalStation": "SIN",
+            "passengers": [
+              {
+                "firstName": "Test",
+                "lastName": "Test",
+                "referenceId": "pax_adt_0",
+                "title": "Mr",
+                "gender": "Male",
+                "addons": {
+                  "seatItems": null,
+                  "baggageItems": [
+                    {
+                      "title": "20 kg Baggage",
+                      "translationKey": "holdBag_20kg",
+                      "otherDetails": {
+                        "baggageType": "hold_bag",
+                        "baggageWeight": "20"
+                      }
+                    },
+                    {
+                      "title": "7 kg Baggage",
+                      "translationKey": "handBag_7kg",
+                      "otherDetails": {
+                        "baggageType": "cabin_bag",
+                        "baggageWeight": "7"
+                      }
+                    }
+                  ],
+                  "mealItems": null,
+                  "insuranceItems": [
+                    {
+                      "title": "Travel Insurance",
+                      "translationKey": "INSC",
+                      "otherDetails": null
+                    }
+                  ],
+                  "otherItems": null
+                }
+              }
+            ],
+            "type": "depart_segment"
+          }
+        ],
+        "baggage": {
+          "complimentaryBaggage": [
+            {
+              "type": "cabin_bag",
+              "count": 1,
+              "width": 23,
+              "height": 35,
+              "length": 54,
+              "weight": 7
+            }
+          ],
+          "checkedBaggageAllowed": true
+        },
+        "addons": [
+          {
+            "paxReferenceId": "pax_adt_0",
+            "paxName": "Mr Test Test",
+            "selectedAncillaries": [
+              {
+                "designator": {
+                  "departureStation": "MNL",
+                  "arrivalStation": "SIN",
+                  "departureTime": "2023-07-22T20:05:00.000Z",
+                  "arrivalTime": "2023-07-23T12:55:00.000Z",
+                  "departureTimeUtc": "2023-07-22T12:05:00.000Z",
+                  "arrivalTimeUtc": "2023-07-23T04:55:00.000Z"
+                },
+                "data": [
+                  {
+                    "category": "flightBaggageItem",
+                    "type": "Complimentary Baggage",
+                    "count": 1,
+                    "price": 0,
+                    "currency": "MYR",
+                    "properties": {
+                      "height": {
+                        "value": 35,
+                        "unit": "cm"
+                      },
+                      "length": {
+                        "value": 54,
+                        "unit": "cm"
+                      },
+                      "width": {
+                        "value": 23,
+                        "unit": "cm"
+                      },
+                      "weight": {
+                        "value": 7,
+                        "unit": "kg"
+                      },
+                      "baggageCode": "cabin_bag"
+                    }
+                  },
+                  {
+                    "category": "flightBaggageItem",
+                    "type": "Available Baggage",
+                    "count": 1,
+                    "price": 488.65,
+                    "currency": "MYR",
+                    "properties": {
+                      "height": {
+                        "value": 5E+1,
+                        "unit": "cm"
+                      },
+                      "length": {
+                        "value": 7E+1,
+                        "unit": "cm"
+                      },
+                      "width": {
+                        "value": 38,
+                        "unit": "cm"
+                      },
+                      "weight": {
+                        "value": 2E+1,
+                        "unit": "kg"
+                      },
+                      "baggageCode": "hold_bag"
+                    }
+                  },
+                  {
+                    "category": "flightInsuranceItem",
+                    "type": "Insurance",
+                    "count": 1,
+                    "price": 10.74,
+                    "currency": "MYR",
+                    "properties": {
+                      "planTitle": "Travel Insurance",
+                      "planCode": "PH_SUPERAPP_INT1",
+                      "ssrFeeCode": "INSC",
+                      "countryCode": null,
+                      "tuneCurrency": "PHP",
+                      "totalPremium": 1.3E+2,
+                      "mccSnapshotId": null,
+                      "policyNo": null,
+                      "proposalState": null,
+                      "errorCode": null,
+                      "errorMessage": null
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "provider": null,
+        "airlineProfile": "kiwi"
+      },
+      "passengerDetails": [
+        {
+          "firstName": "Test",
+          "lastName": "Test",
+          "title": "Mr",
+          "dob": "12/12/1991",
+          "nationality": "MY",
+          "gender": "Male",
+          "paxType": "adult",
+          "referenceId": "pax_adt_0",
+          "bigMemberId": "9350156166",
+          "travelDocuments": [
+            {
+              "id": 0,
+              "type": "passport",
+              "docNumber": "Qwerry",
+              "expiryDate": "23/1/2025"
+            }
+          ]
+        }
+      ],
+      "feeDetails": {
+        "addons": {
+          "total": "499.39",
+          "type": "addOns",
+          "feeBreakUp": [
+            {
+              "amount": 488.65,
+              "name": "20 kg Checked baggage",
+              "type": "flightBaggageItem",
+              "otherDetails": {
+                "count": 1,
+                "translationKey": "holdBag_20kg"
+              }
+            },
+            {
+              "amount": 10.74,
+              "name": "Travel Insurance",
+              "type": "flightInsuranceItem",
+              "otherDetails": {
+                "count": 1,
+                "translationKey": "INSC"
+              }
+            }
+          ]
+        },
+        "processingFee": {
+          "total": "0.0",
+          "type": "processingFee",
+          "feeBreakUp": null
+        },
+        "currency": "MYR",
+        "paymentModes": [
+          {
+            "amount": "948.22",
+            "processingFee": "0.0",
+            "total": "948.22",
+            "paymentStatus": "auth_successful",
+            "currency": "MYR",
+            "paymentMethod": "creditCard"
+          }
+        ],
+        "baseFare": {
+          "total": "393.57",
+          "type": "baseFare",
+          "feeBreakUp": null
+        },
+        "taxes": {
+          "total": "55.26",
+          "type": "taxes",
+          "feeBreakUp": null
+        },
+        "total": "948.22",
+        "showFareBreakUp": true
+      }
+    },
+    "actions": [
+      {
+        "type": "view_itinerary_ota",
+        "link": "https://flights.stgairasia.com/fp/mmb/aggregator/my-orders/actions/v1/get-redirect-url/DhA_Fx4eTCgpN05JPUUPdhw5VD5dMRgVEUk0TBY8QghUHy8PIQkpCiVaUk9eAT9pQVYcJxJBHToYDw08IVcIfBEEWkQkW3oVSTNXHzpHLxNuAnUFFEAHeBVYNQNLXxxiXmoGLy4uGgFNTl9rdFF1DiYHXQNxJAMPemhXVjsECwVXZEN0emseBkd2RTcEPl05MggRSXh0IwJMBhQAIQotCzo6MR1KGwksPylBGUshCUEdMSIVEjk3BlcwEw8FTy8KIhUfCV9JPkk3BCJdLiUIQxZ4A1g0C1pXAjRGZEU9Ji0dC1VOCSMkEEYMJQFRHSxlVjl6dFdvIykXCg==?actionType=view_itinerary_ota"
+      },
+      {
+        "type": "view_invoice_ota",
+        "link": "https://flights.stgairasia.com/fp/mmb/aggregator/my-orders/actions/v1/get-redirect-url/DhA_Fx4eTCgpN05JPUUPdhw5VD5dMRgVEUk0TBY8QghUHy8PIQkpCiVaUk9eAT9pQVYcJxJBHToYDw08IVcIfBEEWkQkW3oVSTNXHzpHLxNuAnUFFEAHeBVYNQNLXxxiXmoGLy4uGgFNTl9rdFF1DiYHXQNxJAMPemhXVjsECwVXZEN0emseBkd2RTcEPl05MggRSXh0IwJMBhQAIQotCzo6MR1KGwksPylBGUshCUEdMSIVEjk3BlcwEw8FTy8KIhUfCV9JPkk3BCJdLiUIQxZ4A1g0C1pXAjRGZEU9Ji0dC1VOCSMkEEYMJQFRHSxlVjl6dFdvIykXCg==?actionType=view_invoice_ota"
+      }
+    ],
+    "promotionalBanner": {
+      "eVisa": {
+        "bannerUrl": "https://staging.visamalaysiacentral.com/public/7108632/",
+        "bannerImageUrl": "https://static.stgairasia.com/flights/crosssell/promotionalBanner/eVisa-banner.png",
+        "displayBanner": false
+      }
+    }
+  }
