@@ -1,0 +1,266 @@
+{
+  "data": [
+    {
+      "translations": [
+        {
+          "id": 1,
+          "asean_travel_guide_id": "61adc09c-3c30-4e61-af7b-b59a9e23803d",
+          "languages_code": "en-gb",
+          "page_title_seo": "Your gateway to seamless ASEAN adventures",
+          "meta_seo": "<meta name=\"description\" content=\"Explore travel guides, visa & entry requirements, health declarations, and travel advisories for 10 ASEAN countries. Stay informed and travel hassle-free.\" />\n<meta name=\"keywords\" content=\"ASEAN travel, visa requirements, entry rules, health declaration, travel advisory, Southeast Asia travel, ASEAN tourism\" />\n<meta name=\"robots\" content=\"index, follow\" />\n<meta name=\"author\" content=\"AirAsia MOVE\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<meta property=\"og:title\" content=\"ASEAN Travel Guide: Visa, Health, and Advisory for 10 Countries\" />\n<meta property=\"og:description\" content=\"Get essential travel details for 10 ASEAN countries, including visa policies, health declarations, and travel advisories.\" />\n<meta property=\"og:image\" content=\"https://yourwebsite.com/asean-guide-cover.jpg\" />\n<meta property=\"og:url\" content=\"https://yourwebsite.com/asean-travel-guide\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"ASEAN Travel Guide: Visa, Health, and Advisory for 10 Countries\" />\n<meta name=\"twitter:description\" content=\"Plan your trip with our ASEAN travel guide. Find visa & entry requirements, health declarations, and advisories.\" />\n<meta name=\"twitter:image\" content=\"https://www.airasia.com/asean-guide-cover.jpg\" />",
+          "main_heading": "Your gateway to seamless ASEAN adventures",
+          "main_description": "Discover travel guides, entry rules & vaccine tips in one place!",
+          "travel_guides_title": "Travel Guides",
+          "travel_requirements_title": "Travel Requirements",
+          "health_regulations_title": "Health Regulations",
+          "general_advise_title": "General Advise"
+        }
+      ],
+      "country_content": [
+        {
+          "asean_travel_guide_country_content_id": {
+            "country_code": "BN",
+            "translations": [
+              {
+                "id": 1,
+                "asean_travel_guide_country_content_id": "32844be4-9dec-4a37-b548-52ca30f0dbc4",
+                "languages_code": "en-gb",
+                "country_name": "Brunei"
+              }
+            ],
+            "travel_guides_items": [
+              {
+                "asean_travel_guides_items_id": {
+                  "country_code": "BN",
+                  "translations": [
+                    {
+                      "id": 1,
+                      "asean_travel_guides_items_id": "e9e6c0c3-801e-4d85-96d4-8dec396f8815",
+                      "languages_code": "en-gb",
+                      "title": "Best time to visit Brunei",
+                      "description": "<p>The best time to visit Brunei is during the drier months when temperatures are more pleasant.</p>",
+                      "image": "1dfd9b4d-4230-44d8-8281-a06c5ef32c2d",
+                      "landing_page": "http://www.tourism.gov.bn/Theme/Home.aspx"
+                    },
+                    {
+                      "id": 3,
+                      "asean_travel_guides_items_id": "e9e6c0c3-801e-4d85-96d4-8dec396f8815",
+                      "languages_code": "id-id",
+                      "title": "[ID TRANSLATION] Best time to visit Brunei",
+                      "description": "<p>[ID TRANSLATION] The best time to visit Brunei is during the drier months when temperatures are more pleasant.</p>",
+                      "image": "a6536dd0-cace-4b04-8950-16f3a26773af",
+                      "landing_page": "http://www.tourism.gov.bn/Theme/Home.aspx"
+                    }
+                  ]
+                }
+              },
+              {
+                "asean_travel_guides_items_id": {
+                  "country_code": "BN",
+                  "translations": [
+                    {
+                      "id": 2,
+                      "asean_travel_guides_items_id": "21752e1a-1c4e-4ef4-8bbd-3648aaf8c6f5",
+                      "languages_code": "en-gb",
+                      "title": "Cultural experience in Brunei",
+                      "description": "<p>Discover majestic mosques, Kampong Ayer&rsquo;s floating village, and local flavors like Ambuyat, all rooted in rich tradition.</p>",
+                      "image": "132df728-dd31-4abb-965b-dc952f3d50df",
+                      "landing_page": "http://www.tourism.gov.bn/Theme/Home.aspx"
+                    }
+                  ]
+                }
+              }
+            ],
+            "travel_requirement_item": [
+              {
+                "travel_requirement_items_id": {
+                  "id": "e9deb7a2-f279-4923-9321-a3faf58f9993",
+                  "status": "draft",
+                  "sort": null,
+                  "user_created": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_created": "2025-03-09T07:00:25.383Z",
+                  "user_updated": null,
+                  "date_updated": null,
+                  "country_code": "BN",
+                  "translations": [
+                    {
+                      "id": 1,
+                      "travel_requirement_items_id": "e9deb7a2-f279-4923-9321-a3faf58f9993",
+                      "languages_code": "en-gb",
+                      "highlight_text": "For ASEAN passport holders, a visa is not required for Brunei Darussalam, with a maximum stay of 30 days.",
+                      "content": "<ul>\n<li>Passengers must use the <a href=\"https://moh.gov.bn/SitePages/bruhealth.aspx\" target=\"_blank\" rel=\"noopener\">BruHealth</a> mobile application to complete the Health Declaration Form on arrival and report their travel history from the past 21 days. Passengers will also be subject to health screening.</li>\n<li>Passengers not holding onward/return tickets or other acceptable evidence of onward/return travel will be refused entry.</li>\n<li>Passengers travelling to or departing from Brunei Darussalam are advised to complete an E-Arrival Card registration online prior to travel.<br>Passengers must have more than 4 blank pages in their passport.</li>\n</ul>\n<p>These are general travel requirements. For guidance specific to your passport and travel documents, please visit the Official Immigration Website of Brunei Darussalam.</p>",
+                      "banner": "1b6e76ba-5cce-4d86-8c60-23b31022e8c0"
+                    }
+                  ]
+                }
+              }
+            ],
+            "health_regulation_item": [
+              {
+                "health_regulations_id": {
+                  "id": "844d48fa-98b6-44b6-9ee7-01bda03e13d7",
+                  "status": "published",
+                  "sort": null,
+                  "user_created": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_created": "2025-03-09T06:57:58.404Z",
+                  "user_updated": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_updated": "2025-03-09T07:04:41.174Z",
+                  "country_code": "BN",
+                  "translations": [
+                    {
+                      "id": 1,
+                      "health_regulations_id": "844d48fa-98b6-44b6-9ee7-01bda03e13d7",
+                      "languages_code": "en-gb",
+                      "banner": "95aaa560-7a4c-464f-8358-23ab843d48e3",
+                      "content": "<p>Passengers aged 9 months and older travelling from or who transited for more than 12 hours through <a href=\"https://cdn.who.int/media/docs/default-source/documents/emergencies/travel-advice/ith2021_annex1_draft_6may_final-draft-rev4feb2022.pdf\" target=\"_blank\" rel=\"noopener\">a country with risk of yellow fever transmission</a> must hold a yellow fever vaccination certificate.</p>",
+                      "health_item": [
+                        {
+                          "health_item": "<p><strong>Required vaccinations</strong></p>\n<ul>\n<li>Passengers aged 1 year and older travelling from or who transited for more than 12 hours through a country with risk of yellow fever transmission must hold a yellow fever vaccination certificate.</li>\n</ul>"
+                        },
+                        {
+                          "health_item": "<p><strong>Routine and Recommended Vaccinations and Medications</strong></p>\n<ul>\n<li>FCDO advises against all but essential travel to parts of the south, near the Thailand-Malaysia border:Pattani Province<br>Yala Province<br>Narathiwat Province<br>southern Songkhla Province &ndash; south of the A43 road between Hat Yai and Sakom, and south of the train line which runs between Hat Yai and Padang Besar</li>\n<li>FCDO also advises against all but essential travel on the Hat Yai to Padang Besar train line that runs through these provinces.<br>This is due to regular attacks in the provinces by the border with Malaysia. See Safety and security.</li>\n</ul>\n<p>Find out more about why FCDO advises against travel.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "general_advise_item": [
+              {
+                "general_advise_id": {
+                  "id": "e5c36edd-a34d-43b0-b128-a97b4206ca70",
+                  "status": "published",
+                  "sort": null,
+                  "user_created": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_created": "2025-03-09T06:52:17.862Z",
+                  "user_updated": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_updated": "2025-03-09T07:04:30.203Z",
+                  "country_code": "BN",
+                  "translations": [
+                    {
+                      "id": 1,
+                      "general_advise_id": "e5c36edd-a34d-43b0-b128-a97b4206ca70",
+                      "languages_code": "en-gb",
+                      "banner": "ec0f3610-1de9-411e-9075-015f8ef70528",
+                      "content": "<ul>\n<li>Leptospirosis is present in Laos. Passengers are advised to avoid contaminated water and soil.</li>\n<li>Schistosomiasis is present in Laos. Passengers are advised to avoid contaminated water.</li>\n<li>Chikungunya is present in Laos. Passengers are advised to avoid bug bites.</li>\n<li>Dengue is present in Laos. Passengers are advised to avoid bug bites.</li>\n<li>Zika is present in Laos. Passengers are advised to avoid bug bites.</li>\n<li>Avian/bird flu is present in Laos. Passengers are advised to avoid domestic and wild poultry.</li>\n<li>Hantavirus is present in Laos. Passengers are advised to avoid rodents and areas where they live, and to avoid sick people.</li>\n<li>Tuberculosis is present in Laos. Passengers are advised to avoid sick people.</li>\n</ul>\n<p>For more detailed information, please visit the <a href=\"https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos?s_cid=ncezid-dgmq-travel-single-001\" target=\"_blank\" rel=\"noopener\">Centers for Disease Control and Prevention (CDC)</a>.</p>"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "asean_travel_guide_country_content_id": {
+            "country_code": "SG",
+            "translations": [
+              {
+                "id": 2,
+                "asean_travel_guide_country_content_id": "4325ada3-bc7a-4da7-80c7-941871945b6c",
+                "languages_code": "en-gb",
+                "country_name": "Singapore"
+              }
+            ],
+            "travel_guides_items": [
+              {
+                "asean_travel_guides_items_id": {
+                  "country_code": "SG",
+                  "translations": [
+                    {
+                      "id": 4,
+                      "asean_travel_guides_items_id": "75a3c207-ab4d-43b6-9f69-583cd8824dee",
+                      "languages_code": "en-gb",
+                      "title": "Endless Adventures Await in Singapore!",
+                      "description": "<p>From stunning skyline views to hidden gems, Singapore offers unforgettable experiences at every turn. Discover the top things to do and plan your next adventure!</p>",
+                      "image": "b384517c-a33a-4e8b-8429-17138d14928a",
+                      "landing_page": "https://www.visitsingapore.com/things-to-do/top-things-to-do/?anchorid=unique-experiences"
+                    }
+                  ]
+                }
+              }
+            ],
+            "travel_requirement_item": [
+              {
+                "travel_requirement_items_id": {
+                  "id": "b0560856-8f39-45be-9f56-d6ff174049f5",
+                  "status": "published",
+                  "sort": null,
+                  "user_created": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_created": "2025-03-09T07:10:02.712Z",
+                  "user_updated": null,
+                  "date_updated": null,
+                  "country_code": "SG",
+                  "translations": [
+                    {
+                      "id": 2,
+                      "travel_requirement_items_id": "b0560856-8f39-45be-9f56-d6ff174049f5",
+                      "languages_code": "en-gb",
+                      "highlight_text": "For ASEAN passport holders, a visa is not required for Singapore, with a maximum stay of 30 days.",
+                      "content": "<ul>\n<li>Authorisation: Passengers must submit an electronic Singapore Arrival Card with Health Declaration (eHDC) via the SG Arrival Card e-Service and submit the acknowledgement email to the Officer-in-Charge on arrival. Passengers are advised to apply online within 3 days prior to departure however this can also be done prior to immigration at arrival digitally.</li>\n<li>Passengers are also highly encouraged to present a copy of their eHDC during check-in, and ensure that their identification details correspond to the details stated in the eHDC.</li>\n<li>Passengers are required to follow the instructions written in the \"Remarks\" field in the acknowledgement email on arrival in Singapore. All passengers must report mpox-related symptoms, such as fever or rash, and travel history through the SG Arrival Card. Passengers who do not submit a completed declaration may be fined or face imprisonment.</li>\n<li>This does not apply to passengers who will not leave the transit area of the airport.</li>\n<li>Passengers and crew members arriving at Singapore Changi Airport (SIN) and Seletar Airport (XSP) from places which may be exposed to the risk of mpox outbreaks will be subject to temperature and visual screening. Passengers who have a fever, rash and/or symptoms compatible with mpox will be referred for medical assessment.</li>\n<li>Passengers not holding onward/return tickets or other acceptable evidence of onward/return travel will be refused entry.</li>\n</ul>\n<p><strong>Additional Information</strong></p>\n<ul>\n<li>Passengers must hold proof of sufficient funds for the duration of their stay in Singapore.</li>\n</ul>\n<p>These are general travel requirements. For guidance specific to your passport and travel documents, please visit the Official Immigration Website of Singapore.</p>",
+                      "banner": "6e392192-51f2-4deb-bb1c-43928306002c"
+                    }
+                  ]
+                }
+              }
+            ],
+            "health_regulation_item": [
+              {
+                "health_regulations_id": {
+                  "id": "9343b76d-2901-4fc9-8a8b-42b8728f2d98",
+                  "status": "published",
+                  "sort": null,
+                  "user_created": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_created": "2025-03-09T07:08:20.261Z",
+                  "user_updated": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_updated": "2025-03-09T07:08:32.572Z",
+                  "country_code": "SG",
+                  "translations": [
+                    {
+                      "id": 2,
+                      "health_regulations_id": "9343b76d-2901-4fc9-8a8b-42b8728f2d98",
+                      "languages_code": "en-gb",
+                      "banner": "ac6bf346-d1c1-4d68-89ec-dff26f0b328b",
+                      "content": "<p>Before visiting Singapore you may need to get the following vaccinations or take the following precautions. It is best to seek medical advice as your individual health and your planned activities will be a factor. Seek advice at least 4-6 weeks before your travel.</p>",
+                      "health_item": [
+                        {
+                          "health_item": "<p><strong>Required vaccinations</strong></p>\n<ul>\n<li>Passengers aged 1 year and older travelling from or who were in a country with risk of yellow fever transmission within 6 days prior to arrival must hold a yellow fever vaccination certificate. Passengers who do not hold a yellow fever vaccination certificate, including passengers aged 1 year old and below and travellers who are medically ineligible for the vaccination, will be subject to a 6 day quarantine on arrival or turned away from Singapore.</li>\n</ul>"
+                        },
+                        {
+                          "health_item": "<p><strong>Routine and Recommended Vaccinations and Medications</strong></p>\n<ul>\n<li>FCDO advises against all but essential travel to parts of the south, near the Thailand-Malaysia border:<br>Pattani Province<br>Yala Province<br>Narathiwat Province<br>southern Songkhla Province &ndash; south of the A43 road between Hat Yai and Sakom, and south of the train line which runs between Hat Yai and Padang Besar</li>\n<li>FCDO also advises against all but essential travel on the Hat Yai to Padang Besar train line that runs through these provinces.</li>\n<li>This is due to regular attacks in the provinces by the border with Malaysia. See Safety and security.</li>\n</ul>\n<p>Find out more about why FCDO advises against travel.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "general_advise_item": [
+              {
+                "general_advise_id": {
+                  "id": "12cab0dc-bb3c-4928-b9e5-d337af15318a",
+                  "status": "published",
+                  "sort": null,
+                  "user_created": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_created": "2025-03-09T07:07:12.988Z",
+                  "user_updated": "f4960c78-6671-4f89-9570-e0057cfc1fb4",
+                  "date_updated": "2025-03-09T07:08:26.628Z",
+                  "country_code": "SG",
+                  "translations": [
+                    {
+                      "id": 2,
+                      "general_advise_id": "12cab0dc-bb3c-4928-b9e5-d337af15318a",
+                      "languages_code": "en-gb",
+                      "banner": "4e4ce6aa-a309-4530-b2ff-239cf0e93497",
+                      "content": "<ul>\n<li>Leptospirosis is present in Singapore. Passengers are advised to avoid contaminated water and soil.</li>\n<li><a href=\"https://wwwnc.cdc.gov/travel/diseases/chikungunya\" target=\"_blank\" rel=\"noopener\">Chikungunya</a> is present in Singapore. Passengers are advised to avoid bug bites.</li>\n<li>Dengue is present in Singapore. Passengers are advised to avoid bug bites.</li>\n<li>Zika is present in Singapore. Passengers are advised to avoid bug bites.</li>\n<li>Hantavirus is present in Singapore. Passengers are advised to avoid rodents and areas where they live, and to avoid sick people.</li>\n<li>Tuberculosis is present in Singapore. Passengers are advised to avoid sick people.</li>\n</ul>\n<p>For more detailed information, please visit the Centers for Disease Control and Prevention (CDC).</p>"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
